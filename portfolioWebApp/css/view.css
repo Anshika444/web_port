@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  /* text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero a {
+  color: black;
+
+  text-decoration: none;
+}
+
+.hero .nav ul {
+  display: flex;
+  margin-right: 3rem;
+  list-style-type: none;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+  background-color: rgba(255, 255, 255);
+  border-radius: 5rem;
+}
+.hero .nav ul li {
+  padding-left: 30px;
+}
+
+.hero .nav ul li a:hover {
+  color: rgb(255, 5, 5);
+  text-decoration: underline;
+}
+.hero .nav ul li a.active {
+  color: rgb(255, 5, 5);
+
+  text-decoration: underline;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(179, 177, 177);
+  /* padding: 3rem 3rem; */
+  height: auto;
+  width: 60%;
+  margin-top: 10rem;
+  /* margin-bottom: 100rem; */
+  border-radius: 10rem;
+  color: black;
+}
+
+.container h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container .form .formContent {
+  margin: 2.5rem;
+}
+
+.container .form label {
+  font-size: 1rem;
+  margin-left: 10rem;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.container .form input {
+  font-size: 1rem;
+  border: none;
+  /* border-radius: 10px; */
+  /* border-bottom: 2px solid white; */
+  background-color: transparent;
+  color: black;
+  /* margin-left: 10%; */
+  text-align: center;
+  width: auto;
+}
+
+.container .form .input1 {
+  margin-left: 2rem;
+}
+.container .form .input2 {
+  margin-left: 1rem;
+}
+.container .form .input3 {
+  margin-left: -1rem;
+}
+.container .form .input4 {
+  margin-left: 2rem;
+}
+.container .form .input5 {
+  margin-left: 1.4rem;
+}
+
+.container .form .formContent .para {
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
